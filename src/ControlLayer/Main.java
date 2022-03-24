@@ -1,5 +1,8 @@
 package ControlLayer;
+import dataaccess.*;
 
 public class Main {
- //kzufzuhjv
+	public static void main(String args[]) throws Exception {
+		DBConnection.getInstance();
+	}
 }
