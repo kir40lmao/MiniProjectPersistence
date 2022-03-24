@@ -43,7 +43,7 @@ public class DBConnection {
     private static final String  databaseName = ";databaseName=CSC-CSD-S212_10407561;";
     
     private static String  userName = ";user=CSC-CSD-S212_10407561";
-    private static String password = ";password=Password1!;";
+    private static String password = ";password=Password1!;ServerCertificate=true;";
    
     private DatabaseMetaData dma;
     private static Connection con;
