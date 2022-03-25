@@ -40,10 +40,10 @@ public class DBConnection {
 	//Constants used to get access to the database
 	
 	private static final String  driver = "jdbc:sqlserver://hildur.ucn.dk\\SQLExpress:1433;";
-    private static final String  databaseName = ";databaseName=CSC-CSD-S212_10407561;";
+    private static final String  databaseName = ";databaseName=CSC-CSD-S212_10407565;";
     
-    private static String  userName = ";user=CSC-CSD-S212_10407561";
-    private static String password = ";password=Password1!;ServerCertificate=true;";
+    private static String  userName = ";user=CSC-CSD-S212_10407565";
+    private static String password = ";password=Password1!;";
    
     private DatabaseMetaData dma;
     private static Connection con;
